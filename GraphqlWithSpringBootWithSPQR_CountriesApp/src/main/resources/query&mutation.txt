@@ -1,0 +1,30 @@
+mutation{
+  saveLanguage(Language : {
+        code: "af",
+        name: "Afrikaans",
+        native: "Afrikaans"
+  }){
+    code
+    name
+    native
+  }
+}
+
+
+
+
+{
+  countries{
+    code
+    name
+    native
+    phone
+    currency
+    languages{
+      name
+    }
+    continent{
+      code
+  }
+  }
+}

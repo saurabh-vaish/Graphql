@@ -1,0 +1,4121 @@
+mutation{
+  saveAllCountries(
+     countries: [
+      {
+       code: "AD",
+        name: "Andorra",
+       native: "Andorra",
+        phone: "376",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 11
+          }
+        ],
+        continent: {
+         continentId: 4
+        }
+      },
+      {
+       code: "AE",
+        name: "United Arab Emirates",
+       native: "دولة الإمارات العربية المتحدة",
+        phone: "971",
+        currency: "AED",
+        languages: [
+          {
+            languageId: 3
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "AF",
+        name: "Afghanistan",
+       native: "افغانستان",
+        phone: "93",
+        currency: "AFN",
+        languages: [
+          {
+            languageId: 78
+          },
+          {
+            languageId: 109
+          },
+          {
+            languageId: 102
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "AG",
+        name: "Antigua and Barbuda",
+       native: "Antigua and Barbuda",
+        phone: "1268",
+        currency: "XCD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "AI",
+        name: "Anguilla",
+       native: "Anguilla",
+        phone: "1264",
+        currency: "XCD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "AL",
+        name: "Albania",
+       native: "Shqipëria",
+        phone: "355",
+        currency: "ALL",
+        languages: [
+          {
+            languageId: 92
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "AM",
+        name: "Armenia",
+       native: "Հայաստան",
+        phone: "374",
+        currency: "AMD",
+        languages: [
+          {
+            languageId: 38
+          },
+          {
+            languageId: 83
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "AO",
+        name: "Angola",
+       native: "Angola",
+        phone: "244",
+        currency: "AOA",
+        languages: [
+          {
+            languageId: 79
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "AQ",
+        name: "Antarctica",
+       native: "Antarctica",
+        phone: "672",
+        currency: "",
+        languages: [],
+        continent: {
+            continentId: 2
+        }
+      },
+      {
+       code: "AR",
+        name: "Argentina",
+       native: "Argentina",
+        phone: "54",
+        currency: "ARS",
+        languages: [
+          {
+            languageId: 20
+          },
+          {
+            languageId: 31
+          }
+        ],
+        continent: {
+            continentId: 7
+        }
+      },
+      {
+       code: "WS",
+        name: "American Samoa",
+       native: "American Samoa",
+        phone: "1684",
+        currency: "USD",
+        languages: [
+          {
+            languageId: 19
+          },
+          {
+            languageId: 89
+          }
+        ],
+        continent: {
+            continentId: 6
+        }
+      },
+      {
+       code: "AT",
+        name: "Austria",
+       native: "Österreich",
+        phone: "43",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 15
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "AU",
+        name: "Australia",
+       native: "Australia",
+        phone: "61",
+        currency: "AUD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 6
+        }
+      },
+      {
+       code: "AW",
+        name: "Aruba",
+       native: "Aruba",
+        phone: "297",
+        currency: "AWG",
+        languages: [
+          {
+            languageId: 70
+          },
+          {
+            languageId: 76
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "AX",
+        name: "Åland",
+       native: "Åland",
+        phone: "358",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 96
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "AZ",
+        name: "Azerbaijan",
+       native: "Azərbaycan",
+        phone: "994",
+        currency: "AZN",
+        languages: [
+          {
+            languageId: 5
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "BA",
+        name: "Bosnia and Herzegovina",
+       native: "Bosna i Hercegovina",
+        phone: "387",
+        currency: "BAM",
+        languages: [
+          {
+            languageId: 10
+          },
+          {
+            languageId: 35
+          },
+          {
+            languageId: 93
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "BB",
+        name: "Barbados",
+       native: "Barbados",
+        phone: "1246",
+        currency: "BBD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "BD",
+        name: "Bangladesh",
+       native: "Bangladesh",
+        phone: "880",
+        currency: "BDT",
+        languages: [
+          {
+            languageId: 9
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "BE",
+        name: "Belgium",
+       native: "België",
+        phone: "32",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 70
+          },
+          {
+            languageId: 28
+          },
+          {
+            languageId: 15
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "BF",
+        name: "Burkina Faso",
+       native: "Burkina Faso",
+        phone: "226",
+        currency: "XOF",
+        languages: [
+          {
+            languageId: 28
+          },
+          {
+            languageId: 24
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "BG",
+        name: "Bulgaria",
+       native: "България",
+        phone: "359",
+        currency: "BGN",
+        languages: [
+          {
+            languageId: 7
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "BH",
+        name: "Bahrain",
+       native: "‏البحرين",
+        phone: "973",
+        currency: "BHD",
+        languages: [
+          {
+            languageId: 3
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "BI",
+        name: "Burundi",
+       native: "Burundi",
+        phone: "257",
+        currency: "BIF",
+        languages: [
+          {
+            languageId: 28
+          },
+          {
+            languageId: 81
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "BJ",
+        name: "Benin",
+       native: "Bénin",
+        phone: "229",
+        currency: "XOF",
+        languages: [
+          {
+            languageId: 28
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "BL",
+        name: "Saint Barthélemy",
+       native: "Saint-Barthélemy",
+        phone: "590",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 28
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "BM",
+        name: "Bermuda",
+       native: "Bermuda",
+        phone: "1441",
+        currency: "BMD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "BN",
+        name: "Brunei",
+       native: "Negara Brunei Darussalam",
+        phone: "673",
+        currency: "BND",
+        languages: [
+          {
+            languageId: 63
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "BO",
+        name: "Bolivia",
+       native: "Bolivia",
+        phone: "591",
+        currency: "BOB,BOV",
+        languages: [
+          {
+            languageId: 20
+          },
+          {
+            languageId: 4
+          },
+          {
+            languageId: 80
+          }
+        ],
+        continent: {
+            continentId: 7
+        }
+      },
+      {
+       code: "BQ",
+        name: "Bonaire",
+       native: "Bonaire",
+        phone: "5997",
+        currency: "USD",
+        languages: [
+          {
+            languageId: 70
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "BR",
+        name: "Brazil",
+       native: "Brasil",
+        phone: "55",
+        currency: "BRL",
+        languages: [
+          {
+            languageId: 79
+          }
+        ],
+        continent: {
+            continentId: 7
+        }
+      },
+      {
+       code: "BS",
+        name: "Bahamas",
+       native: "Bahamas",
+        phone: "1242",
+        currency: "BSD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "BT",
+        name: "Bhutan",
+       native: "ʼbrug-yul",
+        phone: "975",
+        currency: "BTN,INR",
+        languages: [
+          {
+            languageId: 17
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "BV",
+        name: "Bouvet Island",
+       native: "Bouvetøya",
+        phone: "47",
+        currency: "NOK",
+        languages: [
+          {
+            languageId: 72
+          },
+          {
+            languageId: 56
+          },
+          {
+            languageId: 71
+          }
+        ],
+        continent: {
+            continentId: 2
+        }
+      },
+      {
+       code: "BW",
+        name: "Botswana",
+       native: "Botswana",
+        phone: "267",
+        currency: "BWP",
+        languages: [
+          {
+            languageId: 19
+          },
+          {
+            languageId: 103
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "BY",
+        name: "Belarus",
+       native: "Белару́сь",
+        phone: "375",
+        currency: "BYR",
+        languages: [
+          {
+            languageId: 6
+          },
+          {
+            languageId: 83
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "BZ",
+        name: "Belize",
+       native: "Belize",
+        phone: "501",
+        currency: "BZD",
+        languages: [
+          {
+            languageId: 19
+          },
+          {
+            languageId: 20
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "CA",
+        name: "Canada",
+       native: "Canada",
+        phone: "1",
+        currency: "CAD",
+        languages: [
+          {
+            languageId: 19
+          },
+          {
+            languageId: 28
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "CC",
+        name: "Cocos [Keeling] Islands",
+       native: "Cocos (Keeling) Islands",
+        phone: "61",
+        currency: "AUD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "CD",
+        name: "Democratic Republic of the Congo",
+       native: "République démocratique du Congo",
+        phone: "243",
+        currency: "CDF",
+        languages: [
+          {
+            languageId: 28
+          },
+          {
+            languageId: 53
+          },
+          {
+            languageId: 44
+          },
+          {
+            languageId: 97
+          },
+          {
+            languageId: 56
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "CF",
+        name: "Central African Republic",
+       native: "Ködörösêse tî Bêafrîka",
+        phone: "236",
+        currency: "XAF",
+        languages: [
+          {
+            languageId: 28
+          },
+          {
+            languageId: 85
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "CG",
+        name: "Republic of the Congo",
+       native: "République du Congo",
+        phone: "242",
+        currency: "XAF",
+        languages: [
+          {
+            languageId: 28
+          },
+          {
+            languageId: 53
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "CH",
+        name: "Switzerland",
+       native: "Schweiz",
+        phone: "41",
+        currency: "CHE,CHF,CHW",
+        languages: [
+          {
+            languageId: 15
+          },
+          {
+            languageId: 28
+          },
+          {
+            languageId: 41
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "CI",
+        name: "Ivory Coast",
+       native: "Côte d'Ivoire",
+        phone: "225",
+        currency: "XOF",
+        languages: [
+          {
+            languageId: 28
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "CK",
+        name: "Cook Islands",
+       native: "Cook Islands",
+        phone: "682",
+        currency: "NZD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 6
+        }
+      },
+      {
+       code: "CL",
+        name: "Chile",
+       native: "Chile",
+        phone: "56",
+        currency: "CLF,CLP",
+        languages: [
+          {
+            languageId: 20
+          }
+        ],
+        continent: {
+            continentId: 7
+        }
+      },
+      {
+       code: "CM",
+        name: "Cameroon",
+       native: "Cameroon",
+        phone: "237",
+        currency: "XAF",
+        languages: [
+          {
+            languageId: 19
+          },
+          {
+            languageId: 28
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "CN",
+        name: "China",
+       native: "中国",
+        phone: "86",
+        currency: "CNY",
+        languages: [
+          {
+            languageId: 113
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "CO",
+        name: "Colombia",
+       native: "Colombia",
+        phone: "57",
+        currency: "COP",
+        languages: [
+          {
+            languageId: 20
+          }
+        ],
+        continent: {
+            continentId: 7
+        }
+      },
+      {
+       code: "CR",
+        name: "Costa Rica",
+       native: "Costa Rica",
+        phone: "506",
+        currency: "CRC",
+        languages: [
+          {
+            languageId: 20
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "CU",
+        name: "Cuba",
+       native: "Cuba",
+        phone: "53",
+        currency: "CUC,CUP",
+        languages: [
+          {
+            languageId: 20
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "CV",
+        name: "Cape Verde",
+       native: "Cabo Verde",
+        phone: "238",
+        currency: "CVE",
+        languages: [
+          {
+            languageId: 79
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "CW",
+        name: "Curacao",
+       native: "Curaçao",
+        phone: "5999",
+        currency: "ANG",
+        languages: [
+          {
+            languageId: 70
+          },
+          {
+            languageId: 76
+          },
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "CX",
+        name: "Christmas Island",
+       native: "Christmas Island",
+        phone: "61",
+        currency: "AUD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "CY",
+        name: "Cyprus",
+       native: "Κύπρος",
+        phone: "357",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 18
+          },
+          {
+            languageId: 105
+          },
+          {
+            languageId: 38
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "CZ",
+        name: "Czech Republic",
+       native: "Česká republika",
+        phone: "420",
+        currency: "CZK",
+        languages: [
+          {
+            languageId: 13
+          },
+          {
+            languageId: 87
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "DE",
+        name: "Germany",
+       native: "Deutschland",
+        phone: "49",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 15
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "DJ",
+        name: "Djibouti",
+       native: "Djibouti",
+        phone: "253",
+        currency: "DJF",
+        languages: [
+          {
+            languageId: 28
+          },
+          {
+            languageId: 3
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "DK",
+        name: "Denmark",
+       native: "Danmark",
+        phone: "45",
+        currency: "DKK",
+        languages: [
+          {
+            languageId: 14
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "DM",
+        name: "Dominica",
+       native: "Dominica",
+        phone: "1767",
+        currency: "XCD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "DO",
+        name: "Dominican Republic",
+       native: "República Dominicana",
+        phone: "1809,1829,1849",
+        currency: "DOP",
+        languages: [
+          {
+            languageId: 20
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "DZ",
+        name: "Algeria",
+       native: "الجزائر",
+        phone: "213",
+        currency: "DZD",
+        languages: [
+          {
+            languageId: 3
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "EC",
+        name: "Ecuador",
+       native: "Ecuador",
+        phone: "593",
+        currency: "USD",
+        languages: [
+          {
+            languageId: 20
+          }
+        ],
+        continent: {
+            continentId: 7
+        }
+      },
+      {
+       code: "EE",
+        name: "Estonia",
+       native: "Eesti",
+        phone: "372",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 21
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "EG",
+        name: "Egypt",
+       native: "مصر‎",
+        phone: "20",
+        currency: "EGP",
+        languages: [
+          {
+            languageId: 3
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "EH",
+        name: "Western Sahara",
+       native: "الصحراء الغربية",
+        phone: "212",
+        currency: "MAD,DZD,MRU",
+        languages: [
+          {
+            languageId: 20
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "ER",
+        name: "Eritrea",
+       native: "ኤርትራ",
+        phone: "291",
+        currency: "ERN",
+        languages: [
+          {
+            languageId: 101
+          },
+          {
+            languageId: 3
+          },
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "ES",
+        name: "Spain",
+       native: "España",
+        phone: "34",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 20
+          },
+          {
+            languageId: 22
+          },
+          {
+            languageId: 11
+          },
+          {
+            languageId: 30
+          },
+          {
+            languageId: 75
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "ET",
+        name: "Ethiopia",
+       native: "ኢትዮጵያ",
+        phone: "251",
+        currency: "ETB",
+        languages: [
+          {
+            languageId: 2
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "FI",
+        name: "Finland",
+       native: "Suomi",
+        phone: "358",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 25
+          },
+          {
+            languageId: 96
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "FJ",
+        name: "Fiji",
+       native: "Fiji",
+        phone: "679",
+        currency: "FJD",
+        languages: [
+          {
+            languageId: 19
+          },
+          {
+            languageId: 26
+          },
+          {
+            languageId: 34
+          },
+          {
+            languageId: 108
+          }
+        ],
+        continent: {
+            continentId: 6
+        }
+      },
+      {
+       code: "FK",
+        name: "Falkland Islands",
+       native: "Falkland Islands",
+        phone: "500",
+        currency: "FKP",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 7
+        }
+      },
+      {
+       code: "FM",
+        name: "Micronesia",
+       native: "Micronesia",
+        phone: "691",
+        currency: "USD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 6
+        }
+      },
+      {
+       code: "FO",
+        name: "Faroe Islands",
+       native: "Føroyar",
+        phone: "298",
+        currency: "DKK",
+        languages: [
+          {
+            languageId: 27
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "FR",
+        name: "France",
+       native: "France",
+        phone: "33",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 28
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "GA",
+        name: "Gabon",
+       native: "Gabon",
+        phone: "241",
+        currency: "XAF",
+        languages: [
+          {
+            languageId: 28
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "GB",
+        name: "United Kingdom",
+       native: "United Kingdom",
+        phone: "44",
+        currency: "GBP",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "GD",
+        name: "Grenada",
+       native: "Grenada",
+        phone: "1473",
+        currency: "XCD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "GE",
+        name: "Georgia",
+       native: "საქართველო",
+        phone: "995",
+        currency: "GEL",
+        languages: [
+          {
+            languageId: 43
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "GF",
+        name: "French Guiana",
+       native: "Guyane française",
+        phone: "594",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 28
+          }
+        ],
+        continent: {
+            continentId: 7
+        }
+      },
+      {
+       code: "GG",
+        name: "Guernsey",
+       native: "Guernsey",
+        phone: "44",
+        currency: "GBP",
+        languages: [
+          {
+            languageId: 19
+          },
+          {
+            languageId: 28
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "GH",
+        name: "Ghana",
+       native: "Ghana",
+        phone: "233",
+        currency: "GHS",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "GI",
+        name: "Gibraltar",
+       native: "Gibraltar",
+        phone: "350",
+        currency: "GIP",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "GL",
+        name: "Greenland",
+       native: "Kalaallit Nunaat",
+        phone: "299",
+        currency: "DKK",
+        languages: [
+          {
+            languageId: 46
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "GM",
+        name: "Gambia",
+       native: "Gambia",
+        phone: "220",
+        currency: "GMD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "GN",
+        name: "Guinea",
+       native: "Guinée",
+        phone: "224",
+        currency: "GNF",
+        languages: [
+          {
+            languageId: 28
+          },
+          {
+            languageId: 24
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "GP",
+        name: "Guadeloupe",
+       native: "Guadeloupe",
+        phone: "590",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 28
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "GQ",
+        name: "Equatorial Guinea",
+       native: "Guinea Ecuatorial",
+        phone: "240",
+        currency: "XAF",
+        languages: [
+          {
+            languageId: 20
+          },
+          {
+            languageId: 28
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "GR",
+        name: "Greece",
+       native: "Ελλάδα",
+        phone: "30",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 18
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "GS",
+        name: "South Georgia and the South Sandwich Islands",
+       native: "South Georgia",
+        phone: "500",
+        currency: "GBP",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 2
+        }
+      },
+      {
+       code: "GT",
+        name: "Guatemala",
+       native: "Guatemala",
+        phone: "502",
+        currency: "GTQ",
+        languages: [
+          {
+            languageId: 20
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "GU",
+        name: "Guam",
+       native: "Guam",
+        phone: "1671",
+        currency: "USD",
+        languages: [
+          {
+            languageId: 19
+          },
+          {
+            languageId: 12
+          },
+          {
+            languageId: 20
+          }
+        ],
+        continent: {
+            continentId: 6
+        }
+      },
+      {
+       code: "GW",
+        name: "Guinea-Bissau",
+       native: "Guiné-Bissau",
+        phone: "245",
+        currency: "XOF",
+        languages: [
+          {
+            languageId: 79
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "GY",
+        name: "Guyana",
+       native: "Guyana",
+        phone: "592",
+        currency: "GYD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 7
+        }
+      },
+      {
+       code: "HK",
+        name: "Hong Kong",
+       native: "香港",
+        phone: "852",
+        currency: "HKD",
+        languages: [
+          {
+            languageId: 113
+          },
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "HM",
+        name: "Heard Island and McDonald Islands",
+       native: "Heard Island and McDonald Islands",
+        phone: "61",
+        currency: "AUD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 2
+        }
+      },
+      {
+       code: "HN",
+        name: "Honduras",
+       native: "Honduras",
+        phone: "504",
+        currency: "HNL",
+        languages: [
+          {
+            languageId: 20
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "HR",
+        name: "Croatia",
+       native: "Hrvatska",
+        phone: "385",
+        currency: "HRK",
+        languages: [
+          {
+            languageId: 35
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "HT",
+        name: "Haiti",
+       native: "Haïti",
+        phone: "509",
+        currency: "HTG,USD",
+        languages: [
+          {
+            languageId: 28
+          },
+          {
+            languageId: 36
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "HU",
+        name: "Hungary",
+       native: "Magyarország",
+        phone: "36",
+        currency: "HUF",
+        languages: [
+          {
+            languageId: 37
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "ID",
+        name: "Indonesia",
+       native: "Indonesia",
+        phone: "62",
+        currency: "IDR",
+        languages: [
+          {
+            languageId: 39
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "IE",
+        name: "Ireland",
+       native: "Éire",
+        phone: "353",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 29
+          },
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "IL",
+        name: "Israel",
+       native: "יִשְׂרָאֵל",
+        phone: "972",
+        currency: "ILS",
+        languages: [
+          {
+            languageId: 33
+          },
+          {
+            languageId: 3
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "IM",
+        name: "Isle of Man",
+       native: "Isle of Man",
+        phone: "44",
+        currency: "GBP",
+        languages: [
+          {
+            languageId: 19
+          },
+          {
+            languageId: 32
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "IN",
+        name: "India",
+       native: "भारत",
+        phone: "91",
+        currency: "INR",
+        languages: [
+          {
+            languageId: 34
+          },
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "IO",
+        name: "British Indian Ocean Territory",
+       native: "British Indian Ocean Territory",
+        phone: "246",
+        currency: "USD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "IQ",
+        name: "Iraq",
+       native: "العراق",
+        phone: "964",
+        currency: "IQD",
+        languages: [
+          {
+            languageId: 3
+          },
+          {
+            languageId: 49
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "IR",
+        name: "Iran",
+       native: "ایران",
+        phone: "98",
+        currency: "IRR",
+        languages: [
+          {
+            languageId: 23
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "IS",
+        name: "Iceland",
+       native: "Ísland",
+        phone: "354",
+        currency: "ISK",
+        languages: [
+          {
+            languageId: 40
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "IT",
+        name: "Italy",
+       native: "Italia",
+        phone: "39",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 41
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "JE",
+        name: "Jersey",
+       native: "Jersey",
+        phone: "44",
+        currency: "GBP",
+        languages: [
+          {
+            languageId: 19
+          },
+          {
+            languageId: 28
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "JM",
+        name: "Jamaica",
+       native: "Jamaica",
+        phone: "1876",
+        currency: "JMD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "JO",
+        name: "Jordan",
+       native: "الأردن",
+        phone: "962",
+        currency: "JOD",
+        languages: [
+          {
+            languageId: 3
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "JP",
+        name: "Japan",
+       native: "日本",
+        phone: "81",
+        currency: "JPY",
+        languages: [
+          {
+            languageId: 42
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "KE",
+        name: "Kenya",
+       native: "Kenya",
+        phone: "254",
+        currency: "KES",
+        languages: [
+          {
+            languageId: 19
+          },
+          {
+            languageId: 97
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "KG",
+        name: "Kyrgyzstan",
+       native: "Кыргызстан",
+        phone: "996",
+        currency: "KGS",
+        languages: [
+          {
+            languageId: 50
+          },
+          {
+            languageId: 83
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "KH",
+        name: "Cambodia",
+       native: "Kâmpŭchéa",
+        phone: "855",
+        currency: "KHR",
+        languages: [
+          {
+            languageId: 47
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "KI",
+        name: "Kiribati",
+       native: "Kiribati",
+        phone: "686",
+        currency: "AUD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 6
+        }
+      },
+      {
+       code: "KM",
+        name: "Comoros",
+       native: "Komori",
+        phone: "269",
+        currency: "KMF",
+        languages: [
+          {
+            languageId: 3
+          },
+          {
+            languageId: 28
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "KN",
+        name: "Saint Kitts and Nevis",
+       native: "Saint Kitts and Nevis",
+        phone: "1869",
+        currency: "XCD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "KP",
+        name: "North Korea",
+       native: "북한",
+        phone: "850",
+        currency: "KPW",
+        languages: [
+          {
+            languageId: 48
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "KR",
+        name: "South Korea",
+       native: "대한민국",
+        phone: "82",
+        currency: "KRW",
+        languages: [
+          {
+            languageId: 48
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "KW",
+        name: "Kuwait",
+       native: "الكويت",
+        phone: "965",
+        currency: "KWD",
+        languages: [
+          {
+            languageId: 3
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "KY",
+        name: "Cayman Islands",
+       native: "Cayman Islands",
+        phone: "1345",
+        currency: "KYD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "KZ",
+        name: "Kazakhstan",
+       native: "Қазақстан",
+        phone: "76,77",
+        currency: "KZT",
+        languages: [
+          {
+            languageId: 45
+          },
+          {
+            languageId: 83
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "LA",
+        name: "Laos",
+       native: "ສປປລາວ",
+        phone: "856",
+        currency: "LAK",
+        languages: [
+          {
+            languageId: 54
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "LB",
+        name: "Lebanon",
+       native: "لبنان",
+        phone: "961",
+        currency: "LBP",
+        languages: [
+          {
+            languageId: 3
+          },
+          {
+            languageId: 28
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "LC",
+        name: "Saint Lucia",
+       native: "Saint Lucia",
+        phone: "1758",
+        currency: "XCD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "LI",
+        name: "Liechtenstein",
+       native: "Liechtenstein",
+        phone: "423",
+        currency: "CHF",
+        languages: [
+          {
+            languageId: 15
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "LK",
+        name: "Sri Lanka",
+       native: "śrī laṃkāva",
+        phone: "94",
+        currency: "LKR",
+        languages: [
+          {
+            languageId: 86
+          },
+          {
+            languageId: 98
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "LR",
+        name: "Liberia",
+       native: "Liberia",
+        phone: "231",
+        currency: "LRD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "LS",
+        name: "Lesotho",
+       native: "Lesotho",
+        phone: "266",
+        currency: "LSL,ZAR",
+        languages: [
+          {
+            languageId: 19
+          },
+          {
+            languageId: 95
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "LT",
+        name: "Lithuania",
+       native: "Lietuva",
+        phone: "370",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 55
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "LU",
+        name: "Luxembourg",
+       native: "Luxembourg",
+        phone: "352",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 28
+          },
+          {
+            languageId: 15
+          },
+          {
+            languageId: 52
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "LV",
+        name: "Latvia",
+       native: "Latvija",
+        phone: "371",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 57
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "LY",
+        name: "Libya",
+       native: "‏ليبيا",
+        phone: "218",
+        currency: "LYD",
+        languages: [
+          {
+            languageId: 3
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "MA",
+        name: "Morocco",
+       native: "المغرب",
+        phone: "212",
+        currency: "MAD",
+        languages: [
+          {
+            languageId: 3
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "MC",
+        name: "Monaco",
+       native: "Monaco",
+        phone: "377",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 28
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "MD",
+        name: "Moldova",
+       native: "Moldova",
+        phone: "373",
+        currency: "MDL",
+        languages: [
+          {
+            languageId: 82
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "ME",
+        name: "Montenegro",
+       native: "Црна Гора",
+        phone: "382",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 93
+          },
+          {
+            languageId: 10
+          },
+          {
+            languageId: 92
+          },
+          {
+            languageId: 35
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "MF",
+        name: "Saint Martin",
+       native: "Saint-Martin",
+        phone: "590",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 19
+          },
+          {
+            languageId: 28
+          },
+          {
+            languageId: 70
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "MG",
+        name: "Madagascar",
+       native: "Madagasikara",
+        phone: "261",
+        currency: "MGA",
+        languages: [
+          {
+            languageId: 28
+          },
+          {
+            languageId: 58
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "MH",
+        name: "Marshall Islands",
+       native: "M̧ajeļ",
+        phone: "692",
+        currency: "USD",
+        languages: [
+          {
+            languageId: 19
+          },
+          {
+            languageId: 59
+          }
+        ],
+        continent: {
+            continentId: 6
+        }
+      },
+      {
+       code: "MK",
+        name: "North Macedonia",
+       native: "Северна Македонија",
+        phone: "389",
+        currency: "MKD",
+        languages: [
+          {
+            languageId: 61
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "ML",
+        name: "Mali",
+       native: "Mali",
+        phone: "223",
+        currency: "XOF",
+        languages: [
+          {
+            languageId: 28
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "MM",
+        name: "Myanmar [Burma]",
+       native: "မြန်မာ",
+        phone: "95",
+        currency: "MMK",
+        languages: [
+          {
+            languageId: 65
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "MN",
+        name: "Mongolia",
+       native: "Монгол улс",
+        phone: "976",
+        currency: "MNT",
+        languages: [
+          {
+            languageId: 62
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "MO",
+        name: "Macao",
+       native: "澳門",
+        phone: "853",
+        currency: "MOP",
+        languages: [
+          {
+            languageId: 113
+          },
+          {
+            languageId: 79
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "MP",
+        name: "Northern Mariana Islands",
+       native: "Northern Mariana Islands",
+        phone: "1670",
+        currency: "USD",
+        languages: [
+          {
+            languageId: 19
+          },
+          {
+            languageId: 12
+          }
+        ],
+        continent: {
+            continentId: 6
+        }
+      },
+      {
+       code: "MQ",
+        name: "Martinique",
+       native: "Martinique",
+        phone: "596",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 28
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "MR",
+        name: "Mauritania",
+       native: "موريتانيا",
+        phone: "222",
+        currency: "MRU",
+        languages: [
+          {
+            languageId: 3
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "MS",
+        name: "Montserrat",
+       native: "Montserrat",
+        phone: "1664",
+        currency: "XCD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "MT",
+        name: "Malta",
+       native: "Malta",
+        phone: "356",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 64
+          },
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "MU",
+        name: "Mauritius",
+       native: "Maurice",
+        phone: "230",
+        currency: "MUR",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "MV",
+        name: "Maldives",
+       native: "Maldives",
+        phone: "960",
+        currency: "MVR",
+        languages: [
+          {
+            languageId: 16
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "MW",
+        name: "Malawi",
+       native: "Malawi",
+        phone: "265",
+        currency: "MWK",
+        languages: [
+          {
+            languageId: 19
+          },
+          {
+            languageId: 74
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "MX",
+        name: "Mexico",
+       native: "México",
+        phone: "52",
+        currency: "MXN",
+        languages: [
+          {
+            languageId: 20
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "MY",
+        name: "Malaysia",
+       native: "Malaysia",
+        phone: "60",
+        currency: "MYR",
+        languages: [
+          {
+            languageId: 63
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "MZ",
+        name: "Mozambique",
+       native: "Moçambique",
+        phone: "258",
+        currency: "MZN",
+        languages: [
+          {
+            languageId: 79
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "NA",
+        name: "Namibia",
+       native: "Namibia",
+        phone: "264",
+        currency: "NAD,ZAR",
+        languages: [
+          {
+            languageId: 19
+          },
+          {
+            languageId: 1
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "NC",
+        name: "New Caledonia",
+       native: "Nouvelle-Calédonie",
+        phone: "687",
+        currency: "XPF",
+        languages: [
+          {
+            languageId: 28
+          }
+        ],
+        continent: {
+            continentId: 6
+        }
+      },
+      {
+       code: "NE",
+        name: "Niger",
+       native: "Niger",
+        phone: "227",
+        currency: "XOF",
+        languages: [
+          {
+            languageId: 28
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "NF",
+        name: "Norfolk Island",
+       native: "Norfolk Island",
+        phone: "672",
+        currency: "AUD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 6
+        }
+      },
+      {
+       code: "NG",
+        name: "Nigeria",
+       native: "Nigeria",
+        phone: "234",
+        currency: "NGN",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "NI",
+        name: "Nicaragua",
+       native: "Nicaragua",
+        phone: "505",
+        currency: "NIO",
+        languages: [
+          {
+            languageId: 20
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "NL",
+        name: "Netherlands",
+       native: "Nederland",
+        phone: "31",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 70
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "NO",
+        name: "Norway",
+       native: "Norge",
+        phone: "47",
+        currency: "NOK",
+        languages: [
+          {
+            languageId: 72
+          },
+          {
+            languageId: 56
+          },
+          {
+            languageId: 71
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "NP",
+        name: "Nepal",
+       native: "नपल",
+        phone: "977",
+        currency: "NPR",
+        languages: [
+          {
+            languageId: 69
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "NR",
+        name: "Nauru",
+       native: "Nauru",
+        phone: "674",
+        currency: "AUD",
+        languages: [
+          {
+            languageId: 19
+          },
+          {
+            languageId: 66
+          }
+        ],
+        continent: {
+            continentId: 6
+        }
+      },
+      {
+       code: "NU",
+        name: "Niue",
+       native: "Niuē",
+        phone: "683",
+        currency: "NZD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 6
+        }
+      },
+      {
+       code: "NZ",
+        name: "New Zealand",
+       native: "New Zealand",
+        phone: "64",
+        currency: "NZD",
+        languages: [
+          {
+            languageId: 19
+          },
+          {
+            languageId: 60
+          }
+        ],
+        continent: {
+            continentId: 6
+        }
+      },
+      {
+       code: "OM",
+        name: "Oman",
+       native: "عمان",
+        phone: "968",
+        currency: "OMR",
+        languages: [
+          {
+            languageId: 3
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "PA",
+        name: "Panama",
+       native: "Panamá",
+        phone: "507",
+        currency: "PAB,USD",
+        languages: [
+          {
+            languageId: 20
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "PE",
+        name: "Peru",
+       native: "Perú",
+        phone: "51",
+        currency: "PEN",
+        languages: [
+          {
+            languageId: 20
+          }
+        ],
+        continent: {
+            continentId: 7
+        }
+      },
+      {
+       code: "PF",
+        name: "French Polynesia",
+       native: "Polynésie française",
+        phone: "689",
+        currency: "XPF",
+        languages: [
+          {
+            languageId: 28
+          }
+        ],
+        continent: {
+            continentId: 6
+        }
+      },
+      {
+       code: "PG",
+        name: "Papua New Guinea",
+       native: "Papua Niugini",
+        phone: "675",
+        currency: "PGK",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 6
+        }
+      },
+      {
+       code: "PH",
+        name: "Philippines",
+       native: "Pilipinas",
+        phone: "63",
+        currency: "PHP",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "PK",
+        name: "Pakistan",
+       native: "Pakistan",
+        phone: "92",
+        currency: "PKR",
+        languages: [
+          {
+            languageId: 19
+          },
+          {
+            languageId: 108
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "PL",
+        name: "Poland",
+       native: "Polska",
+        phone: "48",
+        currency: "PLN",
+        languages: [
+          {
+            languageId: 77
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "PM",
+        name: "Saint Pierre and Miquelon",
+       native: "Saint-Pierre-et-Miquelon",
+        phone: "508",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 28
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "PN",
+        name: "Pitcairn Islands",
+       native: "Pitcairn Islands",
+        phone: "64",
+        currency: "NZD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 6
+        }
+      },
+      {
+       code: "PR",
+        name: "Puerto Rico",
+       native: "Puerto Rico",
+        phone: "1787,1939",
+        currency: "USD",
+        languages: [
+          {
+            languageId: 20
+          },
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "PS",
+        name: "Palestine",
+       native: "فلسطين",
+        phone: "970",
+        currency: "ILS",
+        languages: [
+          {
+            languageId: 3
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "PT",
+        name: "Portugal",
+       native: "Portugal",
+        phone: "351",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 79
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "PW",
+        name: "Palau",
+       native: "Palau",
+        phone: "680",
+        currency: "USD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 6
+        }
+      },
+      {
+       code: "PY",
+        name: "Paraguay",
+       native: "Paraguay",
+        phone: "595",
+        currency: "PYG",
+        languages: [
+          {
+            languageId: 20
+          },
+          {
+            languageId: 31
+          }
+        ],
+        continent: {
+            continentId: 7
+        }
+      },
+      {
+       code: "QA",
+        name: "Qatar",
+       native: "قطر",
+        phone: "974",
+        currency: "QAR",
+        languages: [
+          {
+            languageId: 3
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "RE",
+        name: "Réunion",
+       native: "La Réunion",
+        phone: "262",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 28
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "RO",
+        name: "Romania",
+       native: "România",
+        phone: "40",
+        currency: "RON",
+        languages: [
+          {
+            languageId: 82
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "RS",
+        name: "Serbia",
+       native: "Србија",
+        phone: "381",
+        currency: "RSD",
+        languages: [
+          {
+            languageId: 93
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "RU",
+        name: "Russia",
+       native: "Россия",
+        phone: "7",
+        currency: "RUB",
+        languages: [
+          {
+            languageId: 83
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "RW",
+        name: "Rwanda",
+       native: "Rwanda",
+        phone: "250",
+        currency: "RWF",
+        languages: [
+          {
+            languageId: 84
+          },
+          {
+            languageId: 19
+          },
+          {
+            languageId: 28
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "SA",
+        name: "Saudi Arabia",
+       native: "العربية السعودية",
+        phone: "966",
+        currency: "SAR",
+        languages: [
+          {
+            languageId: 3
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "SB",
+        name: "Solomon Islands",
+       native: "Solomon Islands",
+        phone: "677",
+        currency: "SBD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 6
+        }
+      },
+      {
+       code: "SC",
+        name: "Seychelles",
+       native: "Seychelles",
+        phone: "248",
+        currency: "SCR",
+        languages: [
+          {
+            languageId: 28
+          },
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "SD",
+        name: "Sudan",
+       native: "السودان",
+        phone: "249",
+        currency: "SDG",
+        languages: [
+          {
+            languageId: 3
+          },
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "SE",
+        name: "Sweden",
+       native: "Sverige",
+        phone: "46",
+        currency: "SEK",
+        languages: [
+          {
+            languageId: 96
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "SG",
+        name: "Singapore",
+       native: "Singapore",
+        phone: "65",
+        currency: "SGD",
+        languages: [
+          {
+            languageId: 19
+          },
+          {
+            languageId: 63
+          },
+          {
+            languageId: 98
+          },
+          {
+            languageId: 113
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "SH",
+        name: "Saint Helena",
+       native: "Saint Helena",
+        phone: "290",
+        currency: "SHP",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "SI",
+        name: "Slovenia",
+       native: "Slovenija",
+        phone: "386",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 88
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "SJ",
+        name: "Svalbard and Jan Mayen",
+       native: "Svalbard og Jan Mayen",
+        phone: "4779",
+        currency: "NOK",
+        languages: [
+          {
+            languageId: 72
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "SK",
+        name: "Slovakia",
+       native: "Slovensko",
+        phone: "421",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 87
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "SL",
+        name: "Sierra Leone",
+       native: "Sierra Leone",
+        phone: "232",
+        currency: "SLL",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "SM",
+        name: "San Marino",
+       native: "San Marino",
+        phone: "378",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 41
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "SN",
+        name: "Senegal",
+       native: "Sénégal",
+        phone: "221",
+        currency: "XOF",
+        languages: [
+          {
+            languageId: 28
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "SO",
+        name: "Somalia",
+       native: "Soomaaliya",
+        phone: "252",
+        currency: "SOS",
+        languages: [
+          {
+            languageId: 91
+          },
+          {
+            languageId: 3
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "SR",
+        name: "Suriname",
+       native: "Suriname",
+        phone: "597",
+        currency: "SRD",
+        languages: [
+          {
+            languageId: 70
+          }
+        ],
+        continent: {
+            continentId: 7
+        }
+      },
+      {
+       code: "SS",
+        name: "South Sudan",
+       native: "South Sudan",
+        phone: "211",
+        currency: "SSP",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "ST",
+        name: "São Tomé and Príncipe",
+       native: "São Tomé e Príncipe",
+        phone: "239",
+        currency: "STN",
+        languages: [
+          {
+            languageId: 79
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "SV",
+        name: "El Salvador",
+       native: "El Salvador",
+        phone: "503",
+        currency: "SVC,USD",
+        languages: [
+          {
+            languageId: 20
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "SX",
+        name: "Sint Maarten",
+       native: "Sint Maarten",
+        phone: "1721",
+        currency: "ANG",
+        languages: [
+          {
+            languageId: 70
+          },
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "SY",
+        name: "Syria",
+       native: "سوريا",
+        phone: "963",
+        currency: "SYP",
+        languages: [
+          {
+            languageId: 3
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "SZ",
+        name: "Swaziland",
+       native: "Swaziland",
+        phone: "268",
+        currency: "SZL",
+        languages: [
+          {
+            languageId: 19
+          },
+          {
+            languageId: 94
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "TC",
+        name: "Turks and Caicos Islands",
+       native: "Turks and Caicos Islands",
+        phone: "1649",
+        currency: "USD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "TD",
+        name: "Chad",
+       native: "Tchad",
+        phone: "235",
+        currency: "XAF",
+        languages: [
+          {
+            languageId: 28
+          },
+          {
+            languageId: 3
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "TF",
+        name: "French Southern Territories",
+       native: "Territoire des Terres australes et antarctiques fr",
+        phone: "262",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 28
+          }
+        ],
+        continent: {
+            continentId: 2
+        }
+      },
+      {
+       code: "TG",
+        name: "Togo",
+       native: "Togo",
+        phone: "228",
+        currency: "XOF",
+        languages: [
+          {
+            languageId: 28
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "TH",
+        name: "Thailand",
+       native: "ประเทศไทย",
+        phone: "66",
+        currency: "THB",
+        languages: [
+          {
+            languageId: 100
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "TJ",
+        name: "Tajikistan",
+       native: "Тоҷикистон",
+        phone: "992",
+        currency: "TJS",
+        languages: [
+          {
+            languageId: 99
+          },
+          {
+            languageId: 83
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "TK",
+        name: "Tokelau",
+       native: "Tokelau",
+        phone: "690",
+        currency: "NZD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 6
+        }
+      },
+      {
+       code: "TL",
+        name: "East Timor",
+       native: "Timor-Leste",
+        phone: "670",
+        currency: "USD",
+        languages: [
+          {
+            languageId: 79
+          }
+        ],
+        continent: {
+            continentId: 6
+        }
+      },
+      {
+       code: "TM",
+        name: "Turkmenistan",
+       native: "Türkmenistan",
+        phone: "993",
+        currency: "TMT",
+        languages: [
+          {
+            languageId: 102
+          },
+          {
+            languageId: 83
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "TN",
+        name: "Tunisia",
+       native: "تونس",
+        phone: "216",
+        currency: "TND",
+        languages: [
+          {
+            languageId: 3
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "TO",
+        name: "Tonga",
+       native: "Tonga",
+        phone: "676",
+        currency: "TOP",
+        languages: [
+          {
+            languageId: 19
+          },
+          {
+            languageId: 104
+          }
+        ],
+        continent: {
+            continentId: 6
+        }
+      },
+      {
+       code: "TR",
+        name: "Turkey",
+       native: "Türkiye",
+        phone: "90",
+        currency: "TRY",
+        languages: [
+          {
+            languageId: 105
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "TT",
+        name: "Trinidad and Tobago",
+       native: "Trinidad and Tobago",
+        phone: "1868",
+        currency: "TTD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "TV",
+        name: "Tuvalu",
+       native: "Tuvalu",
+        phone: "688",
+        currency: "AUD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 6
+        }
+      },
+      {
+       code: "TW",
+        name: "Taiwan",
+       native: "臺灣",
+        phone: "886",
+        currency: "TWD",
+        languages: [
+          {
+            languageId: 113
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "TZ",
+        name: "Tanzania",
+       native: "Tanzania",
+        phone: "255",
+        currency: "TZS",
+        languages: [
+          {
+            languageId: 97
+          },
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "UA",
+        name: "Ukraine",
+       native: "Україна",
+        phone: "380",
+        currency: "UAH",
+        languages: [
+          {
+            languageId: 107
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "UG",
+        name: "Uganda",
+       native: "Uganda",
+        phone: "256",
+        currency: "UGX",
+        languages: [
+          {
+            languageId: 19
+          },
+          {
+            languageId: 97
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "UM",
+        name: "U.S. Minor Outlying Islands",
+       native: "United States Minor Outlying Islands",
+        phone: "1",
+        currency: "USD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 6
+        }
+      },
+      {
+       code: "US",
+        name: "United States",
+       native: "United States",
+        phone: "1",
+        currency: "USD,USN,USS",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "UY",
+        name: "Uruguay",
+       native: "Uruguay",
+        phone: "598",
+        currency: "UYI,UYU",
+        languages: [
+          {
+            languageId: 20
+          }
+        ],
+        continent: {
+            continentId: 7
+        }
+      },
+      {
+       code: "UZ",
+        name: "Uzbekistan",
+       native: "O‘zbekiston",
+        phone: "998",
+        currency: "UZS",
+        languages: [
+          {
+            languageId: 109
+          },
+          {
+            languageId: 83
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "VA",
+        name: "Vatican City",
+       native: "Vaticano",
+        phone: "39066,379",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 41
+          },
+          {
+            languageId: 51
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "VC",
+        name: "Saint Vincent and the Grenadines",
+       native: "Saint Vincent and the Grenadines",
+        phone: "1784",
+        currency: "XCD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "VE",
+        name: "Venezuela",
+       native: "Venezuela",
+        phone: "58",
+        currency: "VES",
+        languages: [
+          {
+            languageId: 20
+          }
+        ],
+        continent: {
+            continentId: 7
+        }
+      },
+      {
+       code: "VG",
+        name: "British Virgin Islands",
+       native: "British Virgin Islands",
+        phone: "1284",
+        currency: "USD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "VI",
+        name: "U.S. Virgin Islands",
+       native: "United States Virgin Islands",
+        phone: "1340",
+        currency: "USD",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 5
+        }
+      },
+      {
+       code: "VN",
+        name: "Vietnam",
+       native: "Việt Nam",
+        phone: "84",
+        currency: "VND",
+        languages: [
+          {
+            languageId: 111
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "VU",
+        name: "Vanuatu",
+       native: "Vanuatu",
+        phone: "678",
+        currency: "VUV",
+        languages: [
+          {
+            languageId: 8
+          },
+          {
+            languageId: 19
+          },
+          {
+            languageId: 28
+          }
+        ],
+        continent: {
+            continentId: 6
+        }
+      },
+      {
+       code: "WF",
+        name: "Wallis and Futuna",
+       native: "Wallis et Futuna",
+        phone: "681",
+        currency: "XPF",
+        languages: [
+          {
+            languageId: 28
+          }
+        ],
+        continent: {
+            continentId: 6
+        }
+      },
+      {
+       code: "WS",
+        name: "Samoa",
+       native: "Samoa",
+        phone: "685",
+        currency: "WST",
+        languages: [
+          {
+            languageId: 89
+          },
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 6
+        }
+      },
+      {
+       code: "XK",
+        name: "Kosovo",
+       native: "Republika e Kosovës",
+        phone: "377,381,383,386",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 92
+          },
+          {
+            languageId: 93
+          }
+        ],
+        continent: {
+            continentId: 4
+        }
+      },
+      {
+       code: "YE",
+        name: "Yemen",
+       native: "اليَمَن",
+        phone: "967",
+        currency: "YER",
+        languages: [
+          {
+            languageId: 3
+          }
+        ],
+        continent: {
+            continentId: 3
+        }
+      },
+      {
+       code: "YT",
+        name: "Mayotte",
+       native: "Mayotte",
+        phone: "262",
+        currency: "EUR",
+        languages: [
+          {
+            languageId: 28
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "ZA",
+        name: "South Africa",
+       native: "South Africa",
+        phone: "27",
+        currency: "ZAR",
+        languages: [
+          {
+            languageId: 1
+          },
+          {
+            languageId: 19
+          },
+          {
+            languageId: 73
+          },
+          {
+            languageId: 95
+          },
+          {
+            languageId: 94
+          },
+          {
+            languageId: 103
+          },
+          {
+            languageId: 106
+          },
+          {
+            languageId: 110
+          },
+          {
+            languageId: 112
+          },
+          {
+            languageId: 114
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "ZM",
+        name: "Zambia",
+       native: "Zambia",
+        phone: "260",
+        currency: "ZMK",
+        languages: [
+          {
+            languageId: 19
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      },
+      {
+       code: "ZW",
+        name: "Zimbabwe",
+       native: "Zimbabwe",
+        phone: "263",
+        currency: "USD,ZAR,BWP,GBP,AUD,CNY,INR,JPY",
+        languages: [
+          {
+            languageId: 19
+          },
+          {
+            languageId: 90
+          },
+          {
+            languageId: 68
+          }
+        ],
+        continent: {
+            continentId: 1
+        }
+      }
+    ]
+  ){
+    countryId
+    code
+    name
+    continent{
+      continentId
+      name
+    }
+    languages{
+      languageId
+      name
+    }
+  }
+}
